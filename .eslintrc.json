@@ -1,0 +1,12 @@
+{
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+        "no-await-in-loop": "error",
+        "indent":["error", 2]
+        // "no-unused-vars":"off"
+        // "no-const-assign":
+    }
+}

@@ -1,0 +1,36 @@
+/* The following line can be included in a src/App.scss */
+
+@import "~bootstrap/scss/bootstrap";
+@import "variable";
+/* The following line can be included in your src/index.js or App.js file */
+.App{
+    h1 {
+        font-weight: 400;
+    }
+    .category-wrap {
+        background: $category_background_color;
+        .category-text{
+            display: flex;
+            justify-content: center;
+        }
+        .categoryContent{
+            p{
+                max-width: 400px; 
+            }
+        }
+        .first-order {
+            order: 1;
+        }
+        .second-order {
+            order: 2;
+        }
+        button {
+            border: 1px solid #25272A;
+            background: transparent;
+            border-radius: 4px;
+            &:hover {
+                border: 2px solid #25272A;
+            }
+        }
+    }
+}
