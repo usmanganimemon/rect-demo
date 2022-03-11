@@ -7,6 +7,8 @@
         "no-await-in-loop": "error",
         "indent":["error", 2],
         "no-unused-vars":"off",
-        "no-const-assign": "off"
+        "no-const-assign": "off",
+        "no-duplicate-imports": "off",
+        "no-var": "off"
     }
 }
