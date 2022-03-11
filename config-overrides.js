@@ -18,7 +18,6 @@ module.exports = {
       use: 'ts-loader',
       exclude: /node_modules/
     })
-    // return false
     return config
   },
 }

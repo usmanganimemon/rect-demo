@@ -5,8 +5,8 @@
     ],
     "rules": {
         "no-await-in-loop": "error",
-        "indent":["error", 2]
-        // "no-unused-vars":"off"
-        // "no-const-assign":
+        "indent":["error", 2],
+        "no-unused-vars":"off",
+        "no-const-assign": "off"
     }
 }
