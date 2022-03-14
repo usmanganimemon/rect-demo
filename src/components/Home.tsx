@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <Row>
         <Col md={12}>
-            <HomeSlider />
+          <HomeSlider />
         </Col>
       </Row>
       <Blog textPosition={1} />
